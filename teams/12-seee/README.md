@@ -1,6 +1,6 @@
 ## SubEng.
 ###### 2021-02-18 by maxatbj
-###### Hackson project-- SEEE.io
+###### Hackson project-- www.seee.io
 
 ##### run a browser on  http://localhost:5000 ,you will see below text, and play on it
 
@@ -50,3 +50,11 @@
         }'
 ``` 
 
+``` bash 
+curl -X POST   'http://localhost:5000/verify'  \
+ -H 'Content-Type: application/json; charset=utf-8' \
+-d '{  
+  "cid": "019911542ae6168eb1a1a02eba615240a74fa6613e2110929c73c99a9e750f2b",
+  "hashcode": "1231281"
+}'
+``` 
